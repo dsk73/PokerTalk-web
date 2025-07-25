@@ -245,7 +245,7 @@ export const popular = [
     title: "Will Kassouf banned from remaining WSOP events",
     date: "19. February 2022",
     comments: 0,
-    cover: "../images/popular/pop3.jpg",
+    cover: "`${process.env.PUBLIC_URL}/images/popular/pop3.jpg",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor neque dolores molestias ab eius repellendus laboriosam exercitationem sequi corrupti deleniti veniam minus, inventore voluptas obcaecati harum eos dolore distinctio voluptatem fugiat illum? Facilis dignissimos dolorum suscipit explicabo aperiam quae, neque, inventore, accusamus praesentium delectus vel officiis. Eos quas delectus necessitatibus blanditiis voluptatum eveniet doloribus totam exercitationem minus. Laborum, commodi!",
   },
   {
