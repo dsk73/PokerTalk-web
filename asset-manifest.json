@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PokerTalk-web/static/css/main.1b468b90.css",
-    "main.js": "/PokerTalk-web/static/js/main.58a658b4.js",
-    "static/media/slick.svg": "/PokerTalk-web/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/PokerTalk-web/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/PokerTalk-web/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/PokerTalk-web/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/PokerTalk-web/index.html",
-    "main.1b468b90.css.map": "/PokerTalk-web/static/css/main.1b468b90.css.map",
-    "main.58a658b4.js.map": "/PokerTalk-web/static/js/main.58a658b4.js.map"
+    "main.css": "./static/css/main.e55d10ad.css",
+    "main.js": "./static/js/main.daf98935.js",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "./index.html",
+    "main.e55d10ad.css.map": "./static/css/main.e55d10ad.css.map",
+    "main.daf98935.js.map": "./static/js/main.daf98935.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b468b90.css",
-    "static/js/main.58a658b4.js"
+    "static/css/main.e55d10ad.css",
+    "static/js/main.daf98935.js"
   ]
 }
