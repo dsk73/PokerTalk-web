@@ -1,0 +1,32 @@
+.popularPost {
+  padding: 20px;
+}
+
+.story-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.story-thumbnail {
+  width: 150px;
+  height: 250px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.story-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story-thumbnail:hover {
+  transform: scale(1.05);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d6faff;
+}

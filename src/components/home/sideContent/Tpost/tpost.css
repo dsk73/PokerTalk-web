@@ -1,0 +1,65 @@
+.tpost {
+  padding: 20px;
+}
+
+.tpost .available {
+  margin: 0 0 5px 5px;
+  font-size: 14px;
+  color: #dcdbdb;
+  font-weight: 500;
+}
+
+.pokerRoom {
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.pokerRoom .img img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.pokerRoom .text {
+  padding: 0 15px;
+  flex: 1;
+}
+
+.pokerRoom .text h3 {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.pokerRoom .text p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #828181;
+}
+
+.infoRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.minDeposit {
+  font-size: 13px;
+  color: #c7c4c4;
+}
+
+.playBtn {
+  background-color: #007bff;
+  color: white;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.playBtn:hover {
+  background-color: #0056b3;
+}
