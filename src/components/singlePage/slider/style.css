@@ -1,5 +1,7 @@
 .singlePopular {
   overflow: hidden;
+  background-color: var(--section-bg);
+  color: var(--text-color);
 }
 .singlePopular .box {
   width: 250px;
@@ -17,7 +19,7 @@
   bottom: 30px;
   left: 0;
   padding: 10px;
-  color: #fff;
+  color: var(--text-color);
 }
 .singlePopular .text h1 {
   font-size: 13px;

@@ -15,15 +15,9 @@ const About = () => {
             From an editorial point of view, PokerTalk stands as a vibrant community hub where poker passion meets professional reporting. We are committed to elevating poker culture in India by connecting readers with the pulse of live events, expert strategies, opinion pieces, and inspiring journeys of poker personalities. With a focus on clarity and credibility, PokerTalk informs, empowers, and unites the poker-loving audience.
           </p>
         </div>
-        <div className="right">
-          <form className="contact-form">
-            <h3>Contact Us</h3>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit">Send</button>
-          </form>
-        </div>
+        {/* <div className="right">
+         <img src="./images/about.jpg" alt="About img" height={250}/>
+        </div> */}
       </div>
     </section>
   );

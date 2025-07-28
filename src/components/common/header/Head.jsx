@@ -5,7 +5,7 @@ const Head = () => {
     <>
       <section className="head" style={{ width: "100%", height: "200px", overflow: "hidden" }}>
         <div className="ad" style={{ width: "100%", height: "100%" }}>
-          <img
+          {/* <img
             src="../images/headerb.jpg"
             alt="Poker Ad"
             style={{
@@ -13,7 +13,7 @@ const Head = () => {
               height: "100%",
               objectFit: "cover"
             }}
-          />
+          /> */}
         </div>
       </section>
     </>

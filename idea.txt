@@ -1,0 +1,88 @@
+│
+├── build
+|   └── (subpages)
+├── node_modules
+|   └── (subpages)
+├── public
+|   └──images
+|       └── (sectionwise images folder and images inside them)
+|   └──index.html
+├── src
+|   └──components
+|      └── common
+|          └── footer
+|              └── Footer.jsx
+|              └── footer.css
+|          └── header
+|              └── Head.jsx
+|              └── Header.jsx
+|              └── header.css
+|          └── heading
+|              └── heading.css
+|              └── Heading.jsx
+|      └── culture
+|          └── Culture.jsx
+|      └── home
+|          └── discover
+|              └── Discover.jsx
+|              └── style.css
+|          └── hero
+|              └── Card.jsx
+|              └── hero.css
+|              └── Hero.jsx
+|          └── mainContent
+|              └── about
+|                  └── About.jsx
+|                  └── about.css
+|              └── forum
+|                  └── Forum.jsx
+|                  └── forum.css
+|              └── homes
+|                  └── Homes.jsx
+|                  └── style.css
+|              └── life
+|                  └── Life.jsx
+|                  └── life.css
+|              └── live
+|                  └── Live.jsx
+|                  └── live.css
+|              └── musics
+|                  └── Musics.jsx
+|                  └── musics.css
+|              └── online
+|                  └── online.jsx
+|                  └── online.css
+|              └── popular
+|                  └── Popular.jsx
+|                  └── Popular.css
+|              └── Ppost
+|                  └── Ppost.jsx
+|                  └── ppost.css
+|          └── sideContent
+|              └──side
+|                  └── side.css
+|                  └── Side.jsx
+|              └──social
+|                  └── SocialMedia.jsx
+|              └──Tpost
+|                  └── Tpost.jsx
+|                  └── tpost.css
+|          └── Homepages.jsx
+|      └── singlePage
+|          └── mainContent
+|              └── Main.css
+|              └── Main.jsx
+|          └── slider
+|              └── SinglePageSlider.jsx
+|              └── style.css
+|          └── singlepage.css
+|          └── singlepage.js
+|   └──App.js
+|   └──App.css
+|   └──dummyData.js
+|   └──index.js
+├── .gitignore 
+├── package-lock.json
+├── package.json
+├── README.md
+└── idea.txt

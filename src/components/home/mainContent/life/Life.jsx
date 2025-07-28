@@ -10,7 +10,7 @@ const Life = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {
@@ -41,7 +41,7 @@ const Life = () => {
                       </div>
                     </div>
                     <div className='text'>
-                      <h1 className='title' >{val.title.slice(0, 80)}...</h1>
+                      <h1 className='title' >{val.title.slice(0, 100)}...</h1>
                       <div className='date'>
                         <i class='fas fa-calendar-days'></i>
                         <label>{val.date}</label>

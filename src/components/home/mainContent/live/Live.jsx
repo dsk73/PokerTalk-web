@@ -46,13 +46,13 @@ const liveEvents = [
     link: "https://indiapokerfest.com/",
     
   },
-  // {
-  //   logo: "/images/live/live7.jpg",
-  //   name: "WPT Cyprus Championship",
-  //   location: "Cyprus",
-  //   date: "13 Aug - 18 Aug 2025",
-  //   link: "https://www.wsop.com/tournaments/",
-  // },
+  {
+    logo: "/images/live/live7.jpg",
+    name: "WPT Cyprus Championship",
+    location: "Cyprus",
+    date: "13 Aug - 18 Aug 2025",
+    link: "https://www.wsop.com/tournaments/",
+  },
   {
     logo: "/images/live/live8.jpg",
     name: "EPT Barcelona",
@@ -83,7 +83,7 @@ const Live = () => {
               <p>{event.location}</p>
               <p>{event.date}</p>
               <a href={event.link} target='_blank' rel='noreferrer'>
-                View Details
+                <button>Intrested</button>
               </a>
             </div>
           </div>

@@ -1,25 +1,39 @@
+/* ================= MUSIC SECTION ================= */
+.music {
+  background-color: var(--section-bg);
+}
+
 .music .box {
-  margin-bottom: 30px;
-  margin-left: 2px;
+  margin-bottom: 20px;
 }
+
 .music .text {
-  padding: 0 30px;
+  font-family:Open Sans, Arial, sans-serif ;
+  padding: 0 20px;
+  color: var(--text-main);
 }
-.music .images {
-  width: 320px;
-  height: 220px;
-}
+
+.music .images,
 .music img {
-  width: 320px;
-  height: 220px;
+  width: 300px;
+  height: 200px;
   object-fit: cover;
+  border-radius: 4px;
 }
+
 .music h1 {
-  font-size: 22px;
+  font-size: 20px;
+  color: var(--text-main);
 }
+
 @media screen and (max-width: 768px) {
   .music img,
   .music .images {
-    height: 350px;
+    height: 300px;
+    width: 100%;
+  }
+
+  .music .text {
+    padding: 0 15px;
   }
 }

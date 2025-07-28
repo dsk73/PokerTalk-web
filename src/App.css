@@ -4,24 +4,27 @@
   margin: 0px 0px;
   box-sizing: border-box;
 }
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #16000c;
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-span,
-label,
-i {
-  color: #fff;
-  cursor: pointer;
+/* UPDATED FILE: App.css */
+body.dark {
+  background-color: #080808;
 }
 
+body.light {
+  background-color: #f9f9f9;
+}
+
+body.light p,
+body.light h1,
+body.light h2,
+body.light h3,
+body.light h4,
+body.light h5,
+body.light h6,
+body.light span,
+body.light label,
+body.light i {
+  color: #111;
+}
 
 a {
   text-decoration: none;

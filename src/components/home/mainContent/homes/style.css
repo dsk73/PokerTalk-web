@@ -1,23 +1,47 @@
 main .container {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
+
 .mainContent {
   width: 75%;
 }
+
 .sideContent {
   width: 23%;
 }
+
+/* Section border styling */
+.section-border {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: var(--section-bg);
+  transition: background-color 0.3s ease;
+}
+
+/* Light and dark theme support */
+body.light {
+  --section-bg: #ffffff;
+}
+
+body.dark {
+  --section-bg: #000000;
+}
+
+/* Optional: Adjust heading style for side headings */
 .sideContent .heading h6 {
   background-color: #fb4c35;
 }
+
 @media screen and (max-width: 768px) {
   main .container {
     flex-direction: column;
   }
-  .mainContent {
-    width: 100%;
-  }
+
+  .mainContent,
   .sideContent {
     width: 100%;
   }

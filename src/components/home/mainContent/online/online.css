@@ -1,11 +1,14 @@
+
+/* ================= ONLINE SECTION ================= */
 .onlineTournaments {
-  padding: 20px;
+  padding: 0px 15px;
+  background-color: var(--section-bg);
 }
 
 .tournament-table {
   width: 100%;
-  margin-top: 20px;
-  font-size: 14px;
+  margin-top: 15px;
+  font-size: 13px;
 }
 
 .tournament-header,
@@ -13,25 +16,26 @@
   display: grid;
   grid-template-columns: 1fr 1.5fr 0.8fr 1.2fr 3fr 1.2fr 1fr 1fr 1fr;
   align-items: center;
-  padding: 15px 10px;
-  border-bottom: 1px solid #ddd;
+  padding: 12px 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-main);
 }
 
 .tournament-header {
   font-weight: bold;
-  background: #454545;
+  background: var(--header-bg);
 }
 
 .tournament-row {
-  background: #0f0f0f;
+  background: var(--row-bg);
 }
 
 .tournament-row:nth-child(even) {
-  background: #1c1b1b;
+  background: var(--row-bg-alt);
 }
 
 .brand-logo {
-  width: 80px;
+  width: 70px;
   height: auto;
 }
 
@@ -45,17 +49,16 @@
 }
 
 .register-btn {
-  background-color: #007bff;
-  color: white;
+  background-color: var(--button-bg);
+  color: var(--button-text);
   font-size: 12px;
   padding: 6px 10px;
   border-radius: 5px;
   text-decoration: none;
-  transition: 0.3s ease;
 }
 
 .register-btn:hover {
-  background-color: #0056b3;
+  background-color: var(--button-hover);
 }
 
 @media screen and (max-width: 768px) {

@@ -1,80 +1,64 @@
+/* ================= LIVE SECTION ================= */
 .liveEvents {
-  padding: 30px 20px;
+  padding: 8px 15px; /* Reduced top/bottom padding */
+  background-color: var(--section-bg);
 }
 
 .liveEvents .subtitle {
   text-align: center;
-  color: #fea4a4;
-  font-size: 14px;
-  margin-bottom: 20px;
+  color: var(--accent);
+  font-size: 13px;
+  margin-bottom: 12px; /* Slightly reduced spacing */
 }
 
 .horizontal-scroll {
   display: flex;
   overflow-x: auto;
-  gap: 20px;
-  padding-bottom: 10px;
+  gap: 15px;
+  padding-bottom: 6px; /* Tightened bottom spacing */
   scrollbar-width: thin;
-}
-
-.horizontal-scroll::-webkit-scrollbar {
-  height: 8px;
-}
-
-.horizontal-scroll::-webkit-scrollbar-thumb {
-  background-color: #ccc;
-  border-radius: 4px;
 }
 
 .event-card {
   flex: 0 0 auto;
-  width: 280px;
-  background: #131313;
-  padding: 15px;
+  width: 12vw;
+  background: var(--card-bg);
+  padding: 10px; /* Reduced internal padding */
   border-radius: 8px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #585858;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
   text-align: center;
 }
 
 .event-card .logo img {
-  width: auto;
-  height: 100px;
+  height: 85px; /* Slightly smaller for compactness */
   object-fit: contain;
-  margin-bottom: 10px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #777676;
+  margin-bottom: 8px; /* Reduced spacing */
+  border: 1px solid var(--img-border);
 }
 
 .event-card .info h3 {
+  font-size: 16px; /* Slight reduction */
   margin: 0;
-  font-size: 18px;
-  color: #faf8f8;
+  color: var(--text-main);
 }
 
 .event-card .info p {
-  margin: 2px 0;
-  font-size: 14px;
-  color: #d6d5d5;
+  font-size: 13px;
+  color: var(--text-sub);
+  margin: 3px 0; /* Tighter spacing */
 }
 
 .event-card .info a {
-  display: inline-block;
-  margin-top: 8px;
-  background: #007bff;
-  color: white;
-  padding: 5px 10px;
-  font-size: 13px;
+  margin-top: 5px;
+  background: var(--button-bg);
+  color: var(--button-text);
+  padding: 4px 9px;
+  font-size: 12px;
   border-radius: 4px;
   text-decoration: none;
 }
 
 .event-card .info a:hover {
-  background: #0056b3;
+  background: var(--button-hover);
 }

@@ -1,110 +1,170 @@
-.social .socBox {
-  padding: 10px 20px;
-  margin-bottom: 10px;
-  color: #fff;
-}
-.social .socBox i {
-  margin-right: 20px;
-}
-.social .socBox span {
-  font-weight: 500;
-}
-.social .socBox:nth-child(1) {
-  background-color: #3b5998;
-}
-.social .socBox:nth-child(2) {
-  background-color: #bd081c;
-}
-.social .socBox:nth-child(3) {
-  background-color: #1da1f2;
-}
-.social .socBox:nth-child(4) {
-  background-color: #c32aa3;
-}
-.social .socBox:nth-child(5) {
-  background-color: #ff0000;
-}
-/*------subscribe--------*/
-.subscribe {
-  border: 1px solid rgb(255, 194, 194);
-  padding: 20px;
-  text-align: center;
-}
-.subscribe h1 {
-  text-align: left;
-  font-size: 20px;
-}
-
-.subscribe button {
-  width: 100%;
+.tpost {
   padding: 10px;
-  margin-top: 5px;
-  background-color: #ff0000;
-  color: #fff;
-  font-weight: 600;
-  border: none;
-}
-/*------subscribe--------*/
-.banner {
-  margin: 40px 0;
-  /* height: 100%; */
-  width: auto;
-}
-.catgorys .category1 {
-  position: relative;
-  margin-bottom: 20px;
-  padding: 10px;
-}
-/*----------gallery----------*/
-.gallery .img {
-  width: 315px;
-  height: 200px;
-}
-.gallery img {
-  width: 380px;
-  height: 200px;
-  object-fit: cover;
-}
-/*----------gallery----------*/
-@media screen and (max-width: 768px) {
-  .gallery img,
-  .gallery .img {
-    width: 100%;
-    height: 400px;
-  }
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
 }
 
-
-/* ------ Hand Videos ------ */
-.hand-videos {
-  margin-top: 10px;
+.section-border {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
 }
 
-.hand-video-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.pokerRoomCard {
+  margin-bottom: 15px;
+}
+
+.pokerRoomContent {
+  display: flex;
+  align-items: flex-start;
   gap: 15px;
 }
 
-.video-card {
+.roomLogoColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.roomLogo {
+  width: 80px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.playBtn {
+  background-color: #007bff;
+  color: white;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.playBtn:hover {
+  background-color: #0056b3;
+}
+
+.roomDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.roomDetails h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  color: var(--text-color, #111);
+}
+
+.roomDetails .bonus {
+  margin: 0 0 6px 0;
+  font-size: 14px;
+  color: #686868;
+}
+
+.minDeposit {
+  font-size: 13px;
+  color: #333;
+}
+
+.card-divider {
+  margin-top: 12px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* Photo Gallery Section */
+.gallery.section-border img {
   width: 100%;
-  aspect-ratio: 9 / 16;
-  background-color: #000;
-  overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
 }
 
-.video-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+/* Contribute Box */
+.subscribe.section-border {
+  text-align: center;
+}
+
+.subscribe.section-border .title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.subscribe.section-border form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe.section-border img {
+  margin: 10px auto;
   display: block;
+  border-radius: 10px;
 }
 
-.video-card:hover {
-  transform: scale(1.05);
-  border-style: solid;
-  border-width: 1px;
-  border-color: #00ffff;
+/* Hand Videos Section */
+.hand-videos.section-border .hand-video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.hand-videos.section-border .video-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Banner Ad Section */
+.banner.section-border img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Dark Mode */
+body.dark .roomDetails h3 {
+  color: #fff;
+}
+body.dark .bonus {
+  color: #bbb;
+}
+body.dark .minDeposit {
+  color: #ccc;
+}
+body.dark .section-border {
+  border-color: #444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pokerRoomContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .roomLogoColumn {
+    width: auto;
+    margin-bottom: 10px;
+  }
+
+  .roomDetails {
+    align-items: center;
+  }
+
+  .hand-videos.section-border .hand-video-grid {
+    grid-template-columns: 1fr;
+  }
 }

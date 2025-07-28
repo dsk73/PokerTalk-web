@@ -1,32 +1,19 @@
-.popularPost {
-  padding: 20px;
+
+/* ================= PPOST SECTION ================= */
+.slider-container {
+  padding: 0px 15px;
 }
 
-.story-grid {
+.popularPost .slick-slide {
   display: flex;
-  gap: 20px;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
-.story-thumbnail {
-  width: 150px;
-  height: 250px;
-  border-radius: 12px;
+.popularPost .slick-list {
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
+  margin: 0 -10px;
 }
 
-.story-thumbnail img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.story-thumbnail:hover {
-  transform: scale(1.05);
-  border-style: solid;
-  border-width: 1px;
-  border-color: #d6faff;
+.popularPost .slick-slide > div {
+  padding: 0 10px;
 }

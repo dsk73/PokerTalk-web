@@ -8,9 +8,8 @@ import Ppost from "../Ppost/Ppost";
 import Online from "../online/online";
 import Live from "../live/Live";
 import About from "../about/About";
-import "./style.css";
 import Forum from "../forum/Forum";
-
+import "./style.css";
 
 const Homes = () => {
   return (
@@ -18,15 +17,16 @@ const Homes = () => {
       <main>
         <div className="container">
           <section className="mainContent">
-            <Ppost />
-            <Music />
-            <Live />
-            <Online />
-            <Popular />
-            <Life /><Forum />
-            <About />            
-
+            <div className="section-border"><Ppost /></div>
+            <div className="section-border"><Music /></div>
+            <div className="section-border"><Live /></div>
+            <div className="section-border"><Online /></div>
+            {/* <div className="section-border"><Popular /></div> */}
+            <div className="section-border"><Life /></div>
+            <div className="section-border"><Forum /></div>
+            <div className="section-border"><About /></div>
           </section>
+
           <section className="sideContent">
             <Side />
           </section>
@@ -37,4 +37,3 @@ const Homes = () => {
 };
 
 export default Homes;
-

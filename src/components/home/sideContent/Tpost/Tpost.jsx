@@ -9,7 +9,7 @@ const pokerRooms = [
     logo: "../images/tpost/tpost1.svg",
     bonus: "Massive first deposit bonus up to $3,580!",
     minDeposit: "$10",
-    link: "https://wptglobal.com", // replace with actual
+    link: "https://wptglobal.com",
   },
   {
     id: 2,
@@ -59,29 +59,28 @@ const pokerRooms = [
     minDeposit: "₹100",
     link: "https://www.jungleepoker.com/",
   },
-  
 ]
 
 const Tpost = () => {
   return (
-    <section className="tpost">
+    <section className="tpost section-border">
       <Heading title="Top Poker Rooms" />
-      {/* <p className="available">Available in 🇮🇳 India</p> */}
       {pokerRooms.map((room) => (
-        <div className="box flexSB pokerRoom" key={room.id}>
-          <div className="img">
-            <img src={room.logo} alt={room.name} />
-          </div>
-          <div className="text">
-            <h3>{room.name}</h3>
-            <p>{room.bonus}</p>
-            <div className="infoRow">
-              <span className="minDeposit">Min. deposit: {room.minDeposit}</span>
+        <div className="pokerRoomCard" key={room.id}>
+          <div className="pokerRoomContent">
+            <div className="roomLogoColumn">
+              <img src={room.logo} alt={room.name} className="roomLogo" />
               <a href={room.link} target="_blank" rel="noreferrer" className="playBtn">
                 PLAY HERE
               </a>
             </div>
+            <div className="roomDetails">
+              <h3>{room.name}</h3>
+              <p className="bonus">{room.bonus}</p>
+              <span className="minDeposit">Min. deposit: {room.minDeposit}</span>
+            </div>
           </div>
+          <hr className="card-divider" />
         </div>
       ))}
     </section>
